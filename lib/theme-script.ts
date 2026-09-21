@@ -1,0 +1,1 @@
+export const themeInitScript = `(function(){try{var t=localStorage.getItem("theme");var theme=t==="light"?"light":"dark";var root=document.documentElement;if(theme==="dark"){root.classList.add("dark")}else{root.classList.remove("dark")}root.style.colorScheme=theme}catch(e){}})();`;
